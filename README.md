@@ -12,7 +12,6 @@ How to use this Library:
 * Enter your adc value ntc_convertToC(adcValue) and get temperature.
 
      VREF
-     _____
       |
       |
       /
@@ -29,5 +28,4 @@ How to use this Library:
       |
       |
       |
-    ______
      GND
