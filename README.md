@@ -10,3 +10,24 @@ How to use this Library:
 * Enable your ADC on cubeMX.   
 * config "ntcConfig.h" file.
 * Enter your adc value ntc_convertToC(adcValue) and get temperature.
+
+     VREF
+     _____
+      |
+      |
+      /
+      \
+      /   R REF
+      \
+      |
+      |   V ADC
+      |
+      /
+      \
+      /   NTC
+      \
+      |
+      |
+      |
+    ______
+     GND
